@@ -1,0 +1,5 @@
+FROM build:latest
+
+WORKDIR html2canvas
+
+RUN npm test
